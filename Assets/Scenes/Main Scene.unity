@@ -166,16 +166,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &101046485 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: 3513320045853961206, guid: ea6463ca199d52046962b69f2ab654ef, type: 3}
-  m_PrefabInstance: {fileID: 856927026}
-  m_PrefabAsset: {fileID: 0}
---- !u!108 &129506686 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: -5428391844021183974, guid: ea6463ca199d52046962b69f2ab654ef, type: 3}
-  m_PrefabInstance: {fileID: 856927026}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &141732345
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,11 +883,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &852770257 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: -3152379998560609391, guid: ea6463ca199d52046962b69f2ab654ef, type: 3}
-  m_PrefabInstance: {fileID: 856927026}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &856927026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3777,7 +3762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 959162235c603d347af0fd284c7d339d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyToPress: 50
+  keyToPress: 113
 --- !u!65 &856927142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3803,7 +3788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 959162235c603d347af0fd284c7d339d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyToPress: 49
+  keyToPress: 112
 --- !u!65 &856927144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3829,7 +3814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 959162235c603d347af0fd284c7d339d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyToPress: 19
+  keyToPress: 0
 --- !u!65 &856927146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3855,7 +3840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 959162235c603d347af0fd284c7d339d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyToPress: 145
+  keyToPress: 0
 --- !u!65 &856927148
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4510,11 +4495,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040369113}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!108 &1066863419 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: -6930015188872202325, guid: ea6463ca199d52046962b69f2ab654ef, type: 3}
-  m_PrefabInstance: {fileID: 856927026}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1213452594
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,11 +4623,6 @@ MonoBehaviour:
   Hand: 4
   duration: 0.07
   amplitude: 1
---- !u!108 &1270549371 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: 7893704435040825264, guid: ea6463ca199d52046962b69f2ab654ef, type: 3}
-  m_PrefabInstance: {fileID: 856927026}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1297605543
 GameObject:
   m_ObjectHideFlags: 0
@@ -4741,11 +4716,6 @@ Transform:
   m_Father: {fileID: 1728812217}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1320268950 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: -8699732548318090483, guid: ea6463ca199d52046962b69f2ab654ef, type: 3}
-  m_PrefabInstance: {fileID: 856927026}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1356320153
 GameObject:
   m_ObjectHideFlags: 0
@@ -4896,11 +4866,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1595987546 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: -159454732624697724, guid: ea6463ca199d52046962b69f2ab654ef, type: 3}
-  m_PrefabInstance: {fileID: 856927026}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1647048262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5053,19 +5018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6d5f12b098a574494724b6e4d36592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataPacket: 
-  incomPacket: 
-  Lights:
-  - {fileID: 1320268950}
-  - {fileID: 1270549371}
-  - {fileID: 1066863419}
-  - {fileID: 129506686}
-  - {fileID: 1595987546}
-  - {fileID: 101046485}
-  - {fileID: 1956717701}
-  - {fileID: 852770257}
-  BodyLight: {fileID: 1297605544}
-  DisplayLight: {fileID: 740743304}
 --- !u!4 &1700545202
 Transform:
   m_ObjectHideFlags: 0
@@ -5128,8 +5080,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1956717701 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: 6449048586731311642, guid: ea6463ca199d52046962b69f2ab654ef, type: 3}
-  m_PrefabInstance: {fileID: 856927026}
-  m_PrefabAsset: {fileID: 0}
